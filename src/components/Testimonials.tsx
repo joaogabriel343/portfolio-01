@@ -138,41 +138,6 @@ const Testimonials: React.FC = () => {
             ))}
           </div>
         </div>
-
-        <div className="mt-16 text-center">
-          <h3 className="text-2xl font-semibold mb-6 text-gray-900 dark:text-white">Deixe seu depoimento</h3>
-          <div className="max-w-2xl mx-auto bg-gray-50 dark:bg-gray-800 rounded-xl shadow-lg p-8">
-            <div className="mb-6">
-              <div className="flex justify-center space-x-1 mb-4">
-                {Array.from({ length: 5 }).map((_, index) => (
-                  <button key={index} className="focus:outline-none">
-                    <Star size={24} className="text-gray-300 hover:text-yellow-400 hover:fill-yellow-400 transition-colors" />
-                  </button>
-                ))}
-              </div>
-              <textarea 
-                className="w-full p-4 border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 focus:ring-2 focus:ring-[#6A5ACD] focus:border-transparent"
-                rows={4}
-                placeholder="Compartilhe sua experiência trabalhando comigo..."
-              ></textarea>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-              <input 
-                type="text" 
-                className="p-3 border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 focus:ring-2 focus:ring-[#6A5ACD] focus:border-transparent"
-                placeholder="Seu nome"
-              />
-              <input 
-                type="text" 
-                className="p-3 border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 focus:ring-2 focus:ring-[#6A5ACD] focus:border-transparent"
-                placeholder="Empresa / Cargo"
-              />
-            </div>
-            <button className="px-6 py-3 bg-[#6A5ACD] hover:bg-[#5A4ABD] text-white rounded-lg transition-colors">
-              Enviar Depoimento
-            </button>
-          </div>
-        </div>
       </div>
     </section>
   );

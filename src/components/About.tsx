@@ -7,8 +7,8 @@ const About: React.FC = () => {
   const timelineEvents = [
     {
       year: '2024 - Presente',
-      title: 'Desenvolvedor Back-End',
-      company: 'Valentim Vistoria',
+      title: 'Desenvolvedor Full Stack',
+      company: 'CalmDev',
       description: 'Desenvolvimento de aplicações web utilizando Node.js, SQL Server e APIs REST.',
       icon: <Briefcase className="w-6 h-6 text-[#6A5ACD]" />
     },

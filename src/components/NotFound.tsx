@@ -22,19 +22,19 @@ const NotFound: React.FC = () => {
             <pre className="text-left text-sm">
               <code>
                 {`// 404 Error Handler
-function redirectToHome() {
-  window.location.href = '/';
-}
+                  function redirectToHome() {
+                    window.location.href = '/';
+                  }
 
-// Countdown to redirect
-let seconds = 10;
-const countdown = setInterval(() => {
-  seconds--;
-  if (seconds <= 0) {
-    clearInterval(countdown);
-    redirectToHome();
-  }
-}, 1000);`}
+                  // Countdown to redirect
+                  let seconds = 10;
+                  const countdown = setInterval(() => {
+                    seconds--;
+                    if (seconds <= 0) {
+                      clearInterval(countdown);
+                      redirectToHome();
+                    }
+                  }, 1000);`}
               </code>
             </pre>
           </div>

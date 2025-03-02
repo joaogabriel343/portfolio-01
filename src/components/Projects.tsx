@@ -26,12 +26,12 @@ const Projects: React.FC = () => {
     },
     {
       id: 2,
-      title: "Sistema de Gestão Educacionais",
+      title: "Sistema de Gerar QRcode",
       description: "Aplicação para gerenciamento de tarefas e projetos Escolares, com recursos de colaboração em tempo real e acompanhamento de progresso.",
-      image: "https://i.postimg.cc/QdDpQD04/image.png",
+      image: "https://i.postimg.cc/XYZC5t7r/image.png",
       technologies: ["React.js", "TypeScript", "Node.js", "SQL Server"],
-      liveLink: "https://eduai-home-page.lovable.app/#",
-      githubLink: "https://github.com/joaogabriel343/Edu-IA-JG.git"
+      liveLink: "https://calmcode-qrcode-generator.lovable.app",
+      githubLink: "https://github.com/joaogabriel343/calmcode-qrcode-generator.git"
     },
     {
       id: 3,
