@@ -17,12 +17,11 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Harmonizart Dashboard",
-      description: "Dashboard completo para gerenciamento de uma Escola Musicais, com análise de Cliente, atendimento por chatBot.",
-      image: "https://i.postimg.cc/gJ7JNydc/image.png",
-      technologies: ["HTML", "CSS", "SQL Server", "Open.IA"],
-      liveLink: "https://joaogabriel343.github.io/Harmonizart.io/",
-      githubLink: "https://github.com/joaogabriel343/Harmonizart.io"
+      title: "Sonhar Colchões e estofados",
+      description: "Dashboard completo para gerenciamento da uma Loja de Colchões em Varginha MG no Shopping Via Café Garden Shopping. Uma loja detalhada contando a história,  ",
+      image: "https://i.postimg.cc/RhVx90wT/image.png",
+      technologies: ["React", "TypeScript", "Css", "JavaScript"],
+      liveLink: "https://sonhar-colchoes-estofados.com.br"
     },
     {
       id: 2,
